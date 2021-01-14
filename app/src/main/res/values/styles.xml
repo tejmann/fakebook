@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInput" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/black50</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="SearchInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/black50</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="StatusButton" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/black50</item>
+        <item name="strokeColor">@color/black50</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Splash" parent="Theme.MyFaceBook">
+        <item name="android:windowBackground">@drawable/splash_theme</item>
+    </style>
+</resources>

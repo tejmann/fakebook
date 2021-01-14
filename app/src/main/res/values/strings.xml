@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MyFaceBook</string>
+    <string name="login_id_label">Email</string>
+    <string name="name">Name</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_account">Create New Fakebook Account</string>
+    <string name="post_placeholder">What\'s on your mind?</string>
+    <string name="post">Post</string>
+    <string name="search">Search Fakebook</string>
+    <string name="live">Live</string>
+    <string name="photo">Photo</string>
+    <string name="room">Room</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="upload_new_picture">Uploading your picture</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="no_internet">Not connected to internet.</string>
+    <string name="empty_profile">Wow, such empty.</string>
+    <string name="empty_users">No users found</string>
+    <string name="empty_wall">Wow, such empty.\nFollow new users for fun content</string>
+    <string name="show_results">Show results for %1$s</string>
+    <string name="uploading">Uploading Picture</string>
+    <string name="continue_button">Continue</string>
+    <string name="follow">Follow</string>
+    <string name="user_followed">User Followed</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="share">Share</string>
+    <string name="status_post_successful">Post Successful</string>
+    <string name="status_post_failed">Nothing to post</string>
+    <string name="enter_email">Please enter email first</string>
+    <string name="password_reset">Password reset email sent!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

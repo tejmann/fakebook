@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tabHostFragment">
+
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.myfacebook.LogInFragment"
+        android:label="LogInFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_logInFragment_to_tabHostFragment"
+            app:destination="@id/tabHostFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tabHostFragment"
+        android:name="com.example.myfacebook.TabHostFragment"
+        android:label="TabHostFragment"
+        tools:layout="@layout/fragment_tabhost">
+        <action
+            android:id="@+id/action_tabHostFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_tabHostFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:enterAnim="@anim/slide_in_left_fast" />
+        <action
+            android:id="@+id/action_tabHostFragment_to_logInFragment2"
+            app:destination="@id/logInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.example.myfacebook.StatusFragment"
+        android:label="StatusFragment"
+        tools:layout="@layout/fragment_status" />
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.myfacebook.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_signup">
+        <action
+            android:id="@+id/action_signUpFragment_to_dpFragment"
+            app:destination="@id/dpFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.myfacebook.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dpFragment"
+        android:name="com.example.myfacebook.DPFragment"
+        android:label="DpFragment"
+        tools:layout="@layout/fragment_dp">
+        <action
+            android:id="@+id/action_dpFragment_to_tabHostFragment"
+            app:destination="@id/tabHostFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.myfacebook.ListFragment"
+        android:label="ListFragment"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_listFragment_to_listFragment2"
+            app:destination="@id/listFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listFragment2"
+        android:name="com.example.myfacebook.ListFragment"
+        android:label="ListFragment"
+        tools:layout="@layout/fragment_list" />
+
+
+</navigation>
