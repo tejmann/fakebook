@@ -17,7 +17,7 @@ In this app you’ll find :
 - **Cloud Functions** for Firebase is used for backend trigger operations. 
 
 
-![login](https://github.com/tejmann/Pokemon-Cards/blob/master/gif/login-new.gif)    ![collection](https://github.com/tejmann/Pokemon-Cards/blob/master/gif/collection-new.gif)    ![gameplay](https://github.com/tejmann/Pokemon-Cards/blob/master/gif/gameplay-new.gif)
+![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_profile.gif)![login](https://github.com/tejmann/fakebook/blob/master/fb_login.gif) ![search](https://github.com/tejmann/fakebook/blob/master/fb_search.gif)
 
 ## How to get it running and gameplay:
 Clone the GitHub repository and build the project using Android Studio. This project is for Android API 21+. 
