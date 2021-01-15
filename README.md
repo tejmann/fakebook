@@ -8,7 +8,6 @@ Current features include:
 
 
 ![login](https://github.com/tejmann/fakebook/blob/master/fb_login.gif)![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_profile.gif)
-</br>
 ![search](https://github.com/tejmann/fakebook/blob/master/fb_search.gif)
 
 In this app you’ll find : 
