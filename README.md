@@ -6,7 +6,7 @@ Current features include:
 * Set status updates to help relay what’s going on in your world
 * Share photos of your favorite memories.
 
-![login](https://github.com/tejmann/fakebook/blob/master/fb_login.gif)   ![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_profile.gif) ![search](https://github.com/tejmann/fakebook/blob/master/fb_search.gif)
+![login](https://github.com/tejmann/fakebook/blob/master/fb_login.gif)<pre> </pre> ![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_profile.gif) ![search](https://github.com/tejmann/fakebook/blob/master/fb_search.gif)
 
 
 In this app you’ll find : 
