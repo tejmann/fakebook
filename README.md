@@ -1,5 +1,6 @@
 # fakebook
-fakebook is a copy of the Facebook android app which I made to showcase my android skills and improve on my back-end skills. The app has a Wall and Profile tab same as the Facebook app. Share updates and photos, engage with friends, and stay connected.
+fakebook is a copy of the Facebook android app which I made to showcase my android skills and improve on my back-end skills. The app has a Wall and Profile tab same as the Facebook app. 
+Share updates and photos, engage with friends, and stay connected.
 Current features include:
 * Connect with friends and family and meet new people on your social media network
 * Set status updates to help relay what’s going on in your world
