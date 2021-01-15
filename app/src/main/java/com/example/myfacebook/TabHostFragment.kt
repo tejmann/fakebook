@@ -22,11 +22,11 @@ class TabHostFragment : Fragment() {
     private val tabChangeListener by lazy {
         object : TabLayout.OnTabSelectedListener {
             override fun onTabReselected(tab: TabLayout.Tab?) {
-                // TODO("Not yet implemented")
+                // no-op
             }
 
             override fun onTabUnselected(tab: TabLayout.Tab?) {
-                // TODO("Not yet implemented")
+                //no-op
             }
 
             override fun onTabSelected(tab: TabLayout.Tab?) {
