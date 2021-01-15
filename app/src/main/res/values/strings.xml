@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyFaceBook</string>
+    <string name="app_name">FakeBook</string>
     <string name="login_id_label">Email</string>
     <string name="name">Name</string>
     <string name="login_password_label">Password</string>

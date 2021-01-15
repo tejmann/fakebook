@@ -92,16 +92,12 @@ class TabHostFragment : Fragment() {
     }
 
     private fun translate() {
-        val animator = ObjectAnimator.ofFloat(toolbar_main, View.TRANSLATION_Y, 0f)
-        val animator2 = ObjectAnimator.ofFloat(tab_layout, View.TRANSLATION_Y, 0f)
+        val animator = ObjectAnimator.ofFloat(view, View.TRANSLATION_Y, 0f)
         animator.start()
-        animator2.start()
     }
 
     private fun translateDown() {
-        val animator = ObjectAnimator.ofFloat(toolbar_main, View.TRANSLATION_Y, -200f)
-        val animator2 = ObjectAnimator.ofFloat(tab_layout, View.TRANSLATION_Y, -200f)
+        val animator = ObjectAnimator.ofFloat(view, View.TRANSLATION_Y, -toolbar_main.height.toFloat())
         animator.start()
-        animator2.start()
     }
 }

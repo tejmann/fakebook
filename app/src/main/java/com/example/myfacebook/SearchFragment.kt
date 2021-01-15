@@ -62,7 +62,7 @@ class SearchFragment : Fragment() {
             override fun afterTextChanged(s: Editable?) {
                 search_label.isVisible = hasRequiredInfo()
                 search_label.text = getString(R.string.show_results, s.toString())
-                searchString = s.toString()
+                searchString = s.toString().toLowerCase()
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {

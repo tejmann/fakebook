@@ -1,6 +1,7 @@
 package com.example.myfacebook
 
 import android.net.Uri
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -84,6 +85,7 @@ class UsersViewModel(val functions: FirebaseFunctions) : ListViewModel() {
             val users = mutableListOf<Post>()
             functions.getHttpsCallable(GET_USERS).call(data).continueWith {
                 val result = it.result?.data as List<HashMap<*, *>>
+                Log.d("USERS", result.toString())
                 result.forEach { map ->
                     val post = map.toPost()
                     post?.let {

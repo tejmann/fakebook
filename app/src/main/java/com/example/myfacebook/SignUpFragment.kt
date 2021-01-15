@@ -50,7 +50,7 @@ class SignUpFragment : Fragment() {
                 val password = signup_password.editText?.text.toString()
                 viewModel.signUp(email, password)
             } else {
-                val name = signup_name.editText?.text.toString()
+                val name = signup_name.editText?.text.toString().toLowerCase()
                 viewModel.setName(name)
             }
         }
