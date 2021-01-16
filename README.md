@@ -7,8 +7,8 @@ Current features include:
 * Share photos of your favorite memories.
 
 
-![login](https://github.com/tejmann/fakebook/blob/master/fb_login.gif)![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_profile.gif)
-![search](https://github.com/tejmann/fakebook/blob/master/fb_search.gif)
+![login](https://github.com/tejmann/fakebook/blob/master/fb_signin_new.gif)![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_new.gif)
+![search](https://github.com/tejmann/fakebook/blob/master/fb_search_new.gif)
 
 In this app you’ll find : 
 - The [Model-View-ViewModel (MVVM) Pattern](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b).
