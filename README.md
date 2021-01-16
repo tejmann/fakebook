@@ -7,7 +7,7 @@ Current features include:
 * Share photos of your favorite memories.
 
 
-![login](https://github.com/tejmann/fakebook/blob/master/fb_signin_new.gif)![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_new.gif)
+![login](https://github.com/tejmann/fakebook/blob/master/fb_signin_new.gif)&nbsp;&nbsp;&nbsp;&nbsp;![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_new.gif)&nbsp;&nbsp;&nbsp;&nbsp;
 ![search](https://github.com/tejmann/fakebook/blob/master/fb_search_new.gif)
 
 In this app you’ll find : 
