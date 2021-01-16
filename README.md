@@ -1,10 +1,14 @@
 # fakebook
-fakebook is a copy of the Facebook android app which I made to showcase my android skills and improve on my back-end skills. The app has a Wall and Profile tab same as the Facebook app. Share updates and photos, engage with friends, and stay connected.
+fakebook is a copy of the Facebook android app which I made to showcase my android skills and improve on my back-end skills. The app has a Wall and Profile tab same as the Facebook app. </br>
+Share updates and photos, engage with friends, and stay connected.
 Current features include:
 * Connect with friends and family and meet new people on your social media network
 * Set status updates to help relay what’s going on in your world
 * Share photos of your favorite memories.
 
+
+![login](https://github.com/tejmann/fakebook/blob/master/fb_login.gif)![wall](https://github.com/tejmann/fakebook/blob/master/fb_wall_profile.gif)
+![search](https://github.com/tejmann/fakebook/blob/master/fb_search.gif)
 
 In this app you’ll find : 
 - The [Model-View-ViewModel (MVVM) Pattern](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b).
@@ -15,9 +19,6 @@ In this app you’ll find :
 - A custom **RecyclerView Adapter** to work with any viewholder. 
 - **Firebase** to store users and their data.
 - **Cloud Functions** for Firebase is used for backend trigger operations. 
-
-
-![login](https://github.com/tejmann/Pokemon-Cards/blob/master/gif/login-new.gif)    ![collection](https://github.com/tejmann/Pokemon-Cards/blob/master/gif/collection-new.gif)    ![gameplay](https://github.com/tejmann/Pokemon-Cards/blob/master/gif/gameplay-new.gif)
 
 ## How to get it running and gameplay:
 Clone the GitHub repository and build the project using Android Studio. This project is for Android API 21+. 
